@@ -1,0 +1,103 @@
+/* Center the content */
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Style the header */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Style the contact form */
+form {
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the contact list */
+.ContactList {
+  margin-top: 20px;
+  text-align: left;
+  width: 350px;
+}
+
+.ContactList h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ContactList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ContactList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ContactList li:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  margin-right: 5px;
+}
+
+button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+button.edit-btn {
+  background-color: #28a745;
+}
+
+button.edit-btn:hover {
+  background-color: #218838;
+}
+
+.contact-actions {
+  display: flex;
+}
