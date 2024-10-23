@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sharedcontacts/static/css/main.be04e36a.css",
+    "main.js": "/sharedcontacts/static/js/main.5cdb4e7f.js",
+    "static/js/453.b95fefca.chunk.js": "/sharedcontacts/static/js/453.b95fefca.chunk.js",
+    "index.html": "/sharedcontacts/index.html",
+    "main.be04e36a.css.map": "/sharedcontacts/static/css/main.be04e36a.css.map",
+    "main.5cdb4e7f.js.map": "/sharedcontacts/static/js/main.5cdb4e7f.js.map",
+    "453.b95fefca.chunk.js.map": "/sharedcontacts/static/js/453.b95fefca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be04e36a.css",
+    "static/js/main.5cdb4e7f.js"
+  ]
+}
